@@ -412,6 +412,11 @@ a{
     color: whitesmoke;
     border: 1px solid whitesmoke;
 }
+.animate__animated.animate__slideInLeft, .animate__animated.animate__slideInRight
+.animate__animated.animate__zoomIn, .animate__animated.animate__zoomInRight{
+    --animate-duration: 4s;
+    --animate-delay: 4s;
+  }
 @media screen and (max-width: 1024px){
     .navbar{
         justify-content: space-between;
