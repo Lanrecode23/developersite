@@ -52,7 +52,6 @@ a{
     background-color: white;
 }
  body{
-    /* color: #fff; */
     background-color: #201a1c;
     font-family: 'Oxygen', sans-serif;
 }
@@ -164,11 +163,6 @@ a{
       }
     
 }
-/* .image-1 img:hover, .image-1 img:focus,
-.img-2 img:hover, .img-3 img:hover,.section-demos>img:hover,.section-demos>img:focus,
-.section1-demos img:hover{
-    transform:scale(1.25);
-} */
 .image-1{
     animation: flip 2s ease-in-out 0.3s 2 top;
 }
