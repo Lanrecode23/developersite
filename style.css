@@ -479,11 +479,9 @@ a{
     .blog p{
         font-size: 10px;
         color: #fff;
-        /* line-height: 1.5; */
     }
     .img11 img{
         width:70%;
-        /* margin-top: 10px; */
  }
  #core-features{
     text-align: center; 
@@ -496,7 +494,6 @@ a{
 }
 .features{
     text-align: center;
-    /* margin-left: 130px; */
  }
  #content h1, #content h2{
     font-size: 20px;
