@@ -6,14 +6,12 @@ const responseElements = document.getElementsByClassName("response");
 const screenElements = document.getElementsByClassName("screen");
 const blogText = document.getElementsByClassName("blogText");
 const blogImage = document.getElementsByClassName("blogImage");
+
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active")
     navMenu.classList.toggle("active")
 });
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-});
+
 
 window.addEventListener("scroll", () => {
     const imageTop = sectionText.getBoundingClientRect().top;
@@ -54,7 +52,7 @@ window.addEventListener("scroll", () => {
     }
     for (const blogTexts of blogText) {
         const screenTop = blogTexts.getBoundingClientRect().top;
-        if (screenTop < windowHeight - elemeVisible) {
+        if (screenTop < windowHeight - elementVisible) {
             blogTexts.classList.add('animate__animated', 'animate__zoomIn');
         } else {
             blogTexts.classList.remove('animate__animated', 'animate__zoomIn');
@@ -62,7 +60,7 @@ window.addEventListener("scroll", () => {
     }
     for (const blogImages of blogImage) {
         const screenTop = blogImages.getBoundingClientRect().top;
-        if (screenTop < windowHeight - elemeVisible) {
+        if (screenTop < windowHeight - elementVisible) {
             blogImages.classList.add('animate__animated', 'animate__zoomInRight');
         } else {
             blogImages.classList.remove('animate__animated', 'animate__zoomInRight');
